@@ -23,8 +23,7 @@ const google_host = 'maps.googleapis.com';
 const nearby_search_path = '/maps/api/place/nearbysearch/json?';
 const detail_path = '/maps/api/place/details/json?';
 const photo_path = '/maps/api/place/photo?';
-const api_keys = ['AIzaSyAqY25ramvlIDJn9TNiDw5D1ryCSi6Q34c', 'AIzaSyAeV4VlXRvkI5q1m607ZOTGj10lMUzPyuQ',
-    'AIzaSyDJME4CsD7dtlzhPGRoNCzMOvydyzcUPKY', 'AIzaSyAg52kSQeSinUj9Cs5zZqFJCghJ9CvuewI', 'AIzaSyDJ5fN7VnQKmT2byDJXUyIgBrYtfbpyaVg'];
+const api_keys = ['key1', 'key2'];
 const max_retrials = 5;
 const {default_max_photo_width, default_photo_count_per_page, num_of_top_checkins, photo_ref_segments_separator} = require('../settings/global_variables');
 
